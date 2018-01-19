@@ -1,0 +1,31 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("www.baidu.com"
+  [url-cookie "NOJS" "1" "10-Jan-2048 09:23:28.00 GMT" "/" "www.baidu.com" nil])
+ (".oschina.net"
+  [url-cookie "_user_behavior_" "92e1bd09-78f4-478a-b648-372b03997dbe" "17-Jan-2019 09:27:33.00 GMT" "/" ".oschina.net" nil]
+  [url-cookie "HttpOnly" nil "17-Jan-2019 09:27:33.00 GMT" "/" ".oschina.net" nil])
+ (".csdn.net"
+  [url-cookie "uuid_tt_dd" "10_37016845350-1516181514281-473301" "Thu, 01 Jan 2025 00:00:00 GMT" "/" ".csdn.net" nil]
+  [url-cookie "dc_session_id" "10_1516181514281.105801" "Thu, 01 Jan 2025 00:00:00 GMT" "/" ".csdn.net" nil])
+ ("csdn.net"
+  [url-cookie "uuid_tt_dd" "6273169254982820380_20180117" "15-Jan-2028 09:31:54.00 GMT" "/" "csdn.net" nil]
+  [url-cookie "Max-Age" "315360000" "15-Jan-2028 09:31:54.00 GMT" "/" "csdn.net" nil])
+ (".baidu.com"
+  [url-cookie "BAIDUID" "6ECDEB0A986C21A562DA861A8AB1DD90:FG=1" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]
+  [url-cookie "max-age" "2147483647" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]
+  [url-cookie "BIDUPSID" "6ECDEB0A986C21A562DA861A8AB1DD90" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]
+  [url-cookie "PSTM" "1516180992" "31 Dec 37 23:55:55 [GMT]" "/" ".baidu.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".github.com"
+  [url-cookie "logged_in" "no" "Sun, 17 Jan 2038 09:45:24 -0000" "/" ".github.com" t]
+  [url-cookie "HttpOnly" nil "Sun, 17 Jan 2038 09:45:24 -0000" "/" ".github.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

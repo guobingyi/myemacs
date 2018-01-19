@@ -1,0 +1,42 @@
+
+;; ----- smex-history -----
+(
+ svn-status
+ eww
+ shell
+ info
+ help
+ term
+ shell-command
+)
+
+;; ----- smex-data -----
+(
+ (load-file . 1)
+ (describe-font . 2)
+ (package-install . 10)
+ (package-reinstall . 2)
+ 5
+ (nodejs-repl-send-buffer . 10)
+ (info . 8)
+ (describe-variable . 1)
+ (auto-complete-mode . 1)
+ (shell-command . 2)
+ (help . 2)
+ (help-with-tutorial . 3)
+ (make-frame . 1)
+ (delete-frame . 1)
+ (term . 17)
+ (save-buffers-kill-terminal . 1)
+ (customize-themes . 1)
+ (all-the-icons-install-fonts . 3)
+ (svn-status . 16)
+ (svn-branch-diff . 1)
+ (multi-term . 1)
+ (package-delete . 2)
+ (org-info . 1)
+ (eww . 9)
+ (ido-mode . 1)
+ (window-numbering-mode . 1)
+ (shell . 12)
+)
