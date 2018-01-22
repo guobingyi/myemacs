@@ -24,6 +24,7 @@
 				   all-the-icons
 				   psvn
 				   window-numbering
+				   nov
 				   )  "Default packages")
 
 (setq package-selected-packages guoby/packages)
@@ -79,6 +80,9 @@
 ;;树形菜单样式/
 (require 'all-the-icons)
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+
+;;使用emacs读取epub电子书
+(add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
 
 ;;使用c-x o 选择窗口
 ;;(require 'switch-window)

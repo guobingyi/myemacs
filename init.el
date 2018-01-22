@@ -1,3 +1,4 @@
+;;by guoby at 2018-01-19 add git
 ;;使用统一管理方式进行修改
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 ;;自定义函数
@@ -13,6 +14,13 @@
 
 (global-set-key (kbd "<f3>") 'open-my-go-workspace)
 
+(defun open-fimas-workspace()
+  (interactive)
+  (find-file "/Volumes/Transcend/work_bak/Letour/SNV_ALL/fimas/sourcecode/controller/firewall_common201712/analysis/firewall_analysis.py")
+  )
+(global-set-key (kbd "<f4>") 'open-fimas-workspace)
+
+
 (require 'init-packages)
 (require 'init-ui)
 (require 'init-better-default)
@@ -27,31 +35,12 @@
 
 (load-file custom-file)
 
-
-
-
-
-
-
-
-
-
 ;注册快捷键f2直接调用init.el文件
 ;(defun open-my-init-file()
 ;  (interactive)
 ;  (find-file "~/.emacs.d/init.el"))
 
 ;(global-set-key (kbd "<f2>") 'open-my-init-file)
-
-
-
-
-
-
-
-
-
-
 
 
 ;;设置smex，来源于官方，目的是主要在使用M-x时提供相应的操作,由于后面使用了ivy可以直接删除smex了

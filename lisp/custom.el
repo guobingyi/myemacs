@@ -35,7 +35,7 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (all-the-icons popwin flymake-go nodejs-repl js2-mode exec-path-from-shell smartparens counsel ivy monokai-theme hungry-delete markdown-mode go-autocomplete go-complete go-mode company)))
+    (nov all-the-icons popwin flymake-go nodejs-repl js2-mode exec-path-from-shell smartparens counsel ivy monokai-theme hungry-delete markdown-mode go-autocomplete go-complete go-mode company)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(vc-annotate-background nil)
