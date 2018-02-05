@@ -29,6 +29,9 @@
 ;;设置全局的窗口选择方式
 (window-numbering-mode t)
 
+;;设置换行方式
+(global-visual-line-mode t)
+
 
 
 

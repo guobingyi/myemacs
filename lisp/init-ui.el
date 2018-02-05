@@ -17,6 +17,9 @@
 ;设置光标模式
 (setq-default cursor-type 'bar)
 
+;;设置配对
+(show-paren-mode t)
+
 ;;设置开始界面最大化
 (setq initial-frame-alist (quote ((fullscreen . maximized))))
 
@@ -31,7 +34,9 @@
 (global-hl-line-mode t)
 
 ;;设置样式
+;; 用来用去 感觉还是monokai给人看着舒服啊，就是怎么将monokai的选中样式修改一下！
 (load-theme 'monokai t)
+;;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 ;;(load-theme 'zenburn t)
 
 (provide 'init-ui)

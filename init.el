@@ -32,7 +32,6 @@
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 
-
 (load-file custom-file)
 
 ;注册快捷键f2直接调用init.el文件

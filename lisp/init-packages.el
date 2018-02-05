@@ -25,6 +25,7 @@
 				   psvn
 				   window-numbering
 				   nov
+				   auto-complete
 				   )  "Default packages")
 
 (setq package-selected-packages guoby/packages)
@@ -45,6 +46,9 @@
 ;; let emacs could find the execuable
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
+;;For golang
+(exec-path-from-shell-copy-env "GOPATH")
+(exec-path-from-shell-copy-env "GOBIN")
 
 
 ;;使用一次删除多个空行
@@ -86,5 +90,19 @@
 
 ;;使用c-x o 选择窗口
 ;;(require 'switch-window)
+
+;;日历插件
+(require 'calfw)
+(require 'calfw-org)
+
+
+;;
+;;auto-complete
+ (require 'auto-complete-config)
+ (add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20170124.1845/dict")
+ (ac-config-default)
+ (local-set-key (kbd "M-/") 'semantic-complete-analyze-inline)
+ (local-set-key "." 'semantic-complete-self-insert)
+ (local-set-key ">" 'semantic-complete-self-insert)
 
 (provide 'init-packages)

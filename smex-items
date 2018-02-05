@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
+ package-delete
+ w3m-goto-url
+ w3m
  package-install
+ term
  shell
- info
- help
- svn-status
- eww
- customize-themes
+ speedbar
 )
 
 ;; ----- smex-data -----
 (
  (load-file . 1)
  (describe-font . 2)
- (package-install . 12)
+ (package-install . 20)
  (package-reinstall . 2)
  5
  (nodejs-repl-send-buffer . 10)
@@ -26,17 +26,30 @@
  (help-with-tutorial . 3)
  (make-frame . 1)
  (delete-frame . 1)
- (term . 17)
+ (term . 19)
  (save-buffers-kill-terminal . 1)
- (customize-themes . 3)
+ (customize-themes . 22)
  (all-the-icons-install-fonts . 3)
- (svn-status . 20)
+ (svn-status . 29)
  (svn-branch-diff . 1)
  (multi-term . 1)
- (package-delete . 2)
+ (package-delete . 4)
  (org-info . 1)
  (eww . 10)
  (ido-mode . 1)
  (window-numbering-mode . 1)
- (shell . 16)
+ (shell . 29)
+ (load-theme . 14)
+ (show-paren-mode . 1)
+ (goto-line . 1)
+ (nov-mode . 1)
+ (customize-option . 1)
+ (customize-variable . 1)
+ (calendar . 2)
+ (calendar-hebrew-goto-date . 1)
+ (cfw:open-calendar-buffer . 1)
+ (cfw:open-org-calendar . 2)
+ (speedbar . 2)
+ (w3m . 3)
+ (w3m-goto-url . 1)
 )

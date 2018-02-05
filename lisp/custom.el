@@ -10,10 +10,12 @@
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(company-idle-delay 0.08)
  '(company-minimum-prefix-length 1)
+ '(company-quickhelp-color-background "#2F2F2F")
+ '(company-quickhelp-color-foreground "#DCDCCC")
  '(compilation-message-face (quote default))
  '(custom-safe-themes
    (quote
-    ("8ed752276957903a270c797c4ab52931199806ccd9f0c3bb77f6f4b9e71b9272" "6c62b1cd715d26eb5aa53843ed9a54fc2b0d7c5e0f5118d4efafa13d7715c56e" default)))
+    ("0f90f1a9b666877d24d93d8c6330a5b68becdebe1cc55ef859799e84c6c4c08e" "8ed752276957903a270c797c4ab52931199806ccd9f0c3bb77f6f4b9e71b9272" "6c62b1cd715d26eb5aa53843ed9a54fc2b0d7c5e0f5118d4efafa13d7715c56e" default)))
  '(fci-rule-color "#3C3D37")
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-tail-colors
@@ -28,6 +30,9 @@
      ("#3C3D37" . 100))))
  '(magit-diff-use-overlays nil)
  '(markdown-command "/usr/local/Cellar/pandoc/2.1/bin/pandoc")
+ '(nrepl-message-colors
+   (quote
+    ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
@@ -35,9 +40,11 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (nov all-the-icons popwin flymake-go nodejs-repl js2-mode exec-path-from-shell smartparens counsel ivy monokai-theme hungry-delete markdown-mode go-autocomplete go-complete go-mode company)))
+    (calfw-org calfw zenburn-theme nov all-the-icons popwin flymake-go nodejs-repl js2-mode exec-path-from-shell smartparens counsel ivy monokai-theme hungry-delete markdown-mode go-autocomplete go-complete go-mode company)))
+ '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
+ '(show-paren-mode t)
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote
