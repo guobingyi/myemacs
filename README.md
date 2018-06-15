@@ -4,3 +4,34 @@
 ## 0x00 
 
 算是记录自己使用emacs的过程。当然，也是第一次用github进行管理。
+
+也是第一次用github进行管理,所以很多东西都不熟练，在此做为一个简要说明
+
+1. 如果是新创建的项目
+
+echo "# myemacs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/guobingyi/myemacs.git
+git push -u origin master
+
+
+2. 如果是已经创建好的项目
+
+git remote add origin https://github.com/guobingyi/myemacs.git
+git push -u origin master
+
+3. 删除文件
+
+git rm --cached .DS_Store
+
+4. 提交文件
+
+git commit -m 'some file remove'
+
+5. 更新到github服务器
+
+git push -u origin master
+
+
